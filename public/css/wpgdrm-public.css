@@ -1,0 +1,23 @@
+.wpgdrm{ position:relative; margin-top: 25px; margin-bottom: 25px;}
+.wpgdrm h5{padding:0 0 7px 0; border-bottom:1px solid #f1f1f1; margin:0; text-align: left; font-weight: 600;}
+.wpgdrm h6{margin:0; text-align: left;}
+.wpgdrm span{font-weight: 600; font-size: 0.9em; text-transform: uppercase;}
+.wpgdrm p{padding: 0; margin: 0;}
+.wpgdrm img{max-width: 100%; margin: 0; padding: 0; margin-top:12px;}
+.wpgdrm ul.wpgdrm-list{ display:block; margin: 0; padding: 0; list-style: none; text-align: left;}
+.wpgdrm ul.wpgdrm-list li{ width:100%; margin:0; padding: 0;}
+.wpgdrm ul.wpgdrm-list li .wpgdrm-thumbnail{ width: 35%; float: left;}
+.wpgdrm ul.wpgdrm-list li .wpgdrm-text{ width: 65%; float: left; padding-left: 15px;}
+
+@media (max-width: 767px)
+{
+	.wpgdrm ul.wpgdrm-list li{ padding-top: 10px; padding-bottom: 10px; border-bottom: 1px solid #f1f1f1;}
+	.wpgdrm ul.wpgdrm-list li:nth-child(even){background: #fafafa;}
+	.wpgdrm ul.wpgdrm-list li:after{ content:' '; clear: both; height: 1px; width: 100%; display: block;}
+}
+
+@media (min-width: 768px)
+{
+	.wpgdrm ul.wpgdrm-list{display: flex; width:100%; margin-top: 15px; padding-bottom: 10px; border-bottom: 1px solid #f1f1f1;}
+	.wpgdrm ul.wpgdrm-list li{flex-basis: 100%;}
+}
